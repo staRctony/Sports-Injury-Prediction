@@ -1,0 +1,23 @@
+=== Dataset 1: Advanced Analysis Summary ===
+Q1 logistic: {'coef': 0.1694259361234921, 'intercept': -3.5107871273605675, 'auc': 0.6096390168970814, 'accuracy': 0.9333333333333333}
+Q2 Pearson (Fatigue vs Injury): {'pearson_r': 0.2924749934982604, 'p_value': 2.6391521270382885e-05}
+Q3 group means by Recovery_Days_Per_Week:
+Recovery_Days_Per_Week
+1    0.179104
+3    0.015625
+2    0.014493
+Name: Injury_Indicator, dtype: float64
+Q6_TrainingLoad_vs_Fatigue multiple regression results: intercept=4.944, coefs={'Training_Load': -0.0004135017583624996}
+Q6 regression: {'intercept': 4.943792891176178, 'coefs': {'Training_Load': -0.0004135017583624996}}
+Chi-square test for Position vs Injury_Indicator: chi2=1.168, p=0.5578, dof=2
+Q7 chi-square: {'chi2': np.float64(1.1675344624653379), 'p': np.float64(0.5577930680148546), 'dof': 2}
+Q9_BodyComp_vs_Fatigue multiple regression results: intercept=6.625, coefs={'Height_cm': -0.005737612103350221, 'Weight_kg': -0.008620628488060247}
+Q9 multiple regression: {'intercept': 6.625272148458704, 'coefs': {'Height_cm': -0.005737612103350221, 'Weight_kg': -0.008620628488060247}}
+Q10 logistic: {'coef': 0.07340901892727338, 'intercept': -3.6143848448274394, 'auc': 0.6401689708141322, 'accuracy': 0.9333333333333333}
+RandomForest dataset1: {'accuracy': 0.95, 'top_features': {'ACL_Risk_Score': 0.23622356923249746, 'Load_Balance_Score': 0.13322545156911617, 'Fatigue_Score': 0.07292093149653438, 'Recovery_Days_Per_Week': 0.035348352651816246, 'Performance_Score': 0.035005893128572156, 'Training_Hours_Per_Week': 0.03460608465145078, 'Weight_kg': 0.0342698396089674, 'Team_Contribution_Score': 0.03385493505939826, 'Athlete_ID_A095': 0.030498852609760603, 'Athlete_ID_A171': 0.029760639051048733, 'Athlete_ID_A107': 0.028915898258364218, 'Height_cm': 0.027418121965414412, 'Training_Intensity': 0.027037741363853687, 'Athlete_ID_A024': 0.022900502347588905, 'Athlete_ID_A191': 0.02217137637042054, 'Athlete_ID_A192': 0.021509491014828273, 'Age': 0.02094703788837552, 'Athlete_ID_A145': 0.01981540052564382, 'Athlete_ID_A007': 0.019447685547283298, 'Athlete_ID_A129': 0.01891309022384375}}
+PCA/KMeans dataset1: {'note': 'pca_kmeans_done'}
+Class distribution Injury_Indicator:
+Injury_Indicator
+0    186
+1     14
+=== End of Dataset 1 analysis ===

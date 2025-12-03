@@ -1,0 +1,20 @@
+Top 5 categories for dataset_1:
+
+Athlete_ID:
+Athlete_ID
+A001    1
+A138    1
+A128    1
+A129    1
+A130    1
+
+Gender:
+Gender
+Female    107
+Male       93
+
+Position:
+Position
+Forward    70
+Center     66
+Guard      64

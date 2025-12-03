@@ -1,0 +1,33 @@
+Top 5 categories for dataset_2:
+
+Athlete_ID:
+Athlete_ID
+A0001    1
+A0672    1
+A0659    1
+A0660    1
+A0661    1
+
+Sport_Type:
+Sport_Type
+Tennis        215
+Basketball    204
+Football      202
+Soccer        198
+Baseball      181
+
+Session_Date:
+Session_Date
+2024-01-01    1
+2025-11-02    1
+2025-10-20    1
+2025-10-21    1
+2025-10-22    1
+
+Activity_Type:
+Activity_Type
+Sprinting    227
+Jogging      202
+Jumping      197
+Dribbling    191
+Running      183

@@ -1,0 +1,3 @@
+Outlier Report (IQR):
+Load_Balance_Score: 8 outliers
+Injury_Indicator: 14 outliers

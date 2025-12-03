@@ -1,0 +1,21 @@
+=== Dataset 2: Advanced Analysis Summary ===
+Q4 logistic: {'coef': 0.002465157241480575, 'intercept': 0.13796490799284258, 'auc': 0.5165290655111272, 'accuracy': 0.6166666666666667}
+Q5 Impact force: {'pearson_r': 0.1258481004608803, 'p_value': 6.591629096451463e-05}
+Q8 Activity injury rates:
+Activity_Type
+Sprinting    0.660793
+Dribbling    0.638743
+Jumping      0.619289
+Running      0.612022
+Jogging      0.549505
+Name: Injury_Occurred, dtype: float64
+Q2 (dataset2) Pearson: {'pearson_r': 0.1553079849255033, 'p_value': 8.010926585823381e-07}
+Q6_dataset2 multiple regression results: intercept=0.492, coefs={'Training_Load': 9.983526081169571e-07}
+Q6 dataset2 regression: {'intercept': 0.4917497765185458, 'coefs': {'Training_Load': 9.983526081169571e-07}}
+RandomForest dataset2: {'accuracy': 0.6033333333333334, 'top_features': {'Impact_Force_Newtons': 0.07762043915973384, 'Injury_Risk_Score': 0.07350025088913796, 'Cumulative_Fatigue_Index': 0.07221253029260961, 'Skin_Temperature_C': 0.07106424884140543, 'Blood_Oxygen_Level_Percent': 0.06828092387066227, 'Duration_Minutes': 0.06633056782171837, 'Heart_Rate_BPM': 0.0658996976731222, 'Respiratory_Rate_BPM': 0.04561358613702361, 'Sport_Type_Football': 0.01360240943206273, 'Activity_Type_Sprinting': 0.012877531318695186, 'Sport_Type_Basketball': 0.012825350161650154, 'Activity_Type_Jogging': 0.01264544130503025, 'Activity_Type_Jumping': 0.011413107596477482, 'Sport_Type_Tennis': 0.011375624177108253, 'Activity_Type_Running': 0.011304541814567621, 'Sport_Type_Soccer': 0.010316619600678435, 'Athlete_ID_A0425': 0.0020008804456225623, 'Athlete_ID_A0079': 0.001947349599154122, 'Athlete_ID_A0078': 0.0018629839239371125, 'Athlete_ID_A0773': 0.0017929192048448267}}
+PCA/KMeans dataset2: {'note': 'pca_kmeans_done'}
+Class distribution Injury_Occurred:
+Injury_Occurred
+1    617
+0    383
+=== End of Dataset 2 analysis ===

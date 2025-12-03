@@ -1,0 +1,15 @@
+Missing Values:
+Athlete_ID                    0
+Sport_Type                    0
+Session_Date                  0
+Heart_Rate_BPM                0
+Respiratory_Rate_BPM          0
+Skin_Temperature_C            0
+Blood_Oxygen_Level_Percent    0
+Impact_Force_Newtons          0
+Cumulative_Fatigue_Index      0
+Activity_Type                 0
+Duration_Minutes              0
+Injury_Risk_Score             0
+Injury_Occurred               0
+dtype: int64

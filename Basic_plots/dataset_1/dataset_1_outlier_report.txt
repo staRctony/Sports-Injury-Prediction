@@ -1,0 +1,5 @@
+Outlier report (IQR) for dataset_1:
+
+Load_Balance_Score: 8 outliers
+
+Injury_Indicator: 14 outliers
